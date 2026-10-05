@@ -16,6 +16,15 @@ Menu bar app for macOS: **zero blue light, no PWM flicker.** Clone of Tap Zap, f
 - Settings: launch at login, global hotkey ⌃⌥⌘Z, copy feedback for support, restore true colors, quit.
 - Screenshots and screen shares are not tinted (gamma is applied after capture).
 
+## Install
+
+```bash
+git clone https://github.com/infoascent/ascent-zap.git && cd ascent-zap && ./install.sh
+```
+
+Builds from source, installs into /Applications and launches it (bolt icon in the menu bar). Needs the Xcode Command Line Tools
+(`xcode-select --install`). PWM-SAFE needs no permission; the global hotkey may ask for Accessibility access.
+
 ## Build
 
 ```bash
